@@ -107,7 +107,6 @@ Note: this schedule is subject to some change, so please check the course websit
 ## Week 1  -  All the data on all the people:  Introduction to the scope of data collection  
 
 Sweeney, L. (n.d.). Chapter 2: All the Data on All the People. In The Sweet Spot: Harmonizing Technology and Society, Draft 2-01.10 (p. 45). https://berkeley.app.box.com/plsc2015papers/2/3072037805
-https://www.theonion.com/i-don-t-fit-into-any-of-corporate-america-s-little-box-1824207087
 Latanya Sweeney - Where does your data go?  The DataMap
 These Apps Collect the Most Personal Data. (n.d.). PCMAG. Retrieved November 16, 2021, from https://www.pcmag.com/news/sick-of-data-collection-try-these-apps-instead
 Looking at Cookies (see Cookie Analysis below)
