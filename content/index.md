@@ -2,6 +2,7 @@
 title: "People vs. Algorithms: Data Ethics in the 21st Century" 
 author: Isabelle Zaugg, Jonathan Reeve
 date: 2021-07-05
+bibliography: references.bib
 ---
 
 Welcome! Here you'll find all the course information for "People vs. Algorithms: Data Ethics in the 21st Century," a course taught in the Department of Statistics, at Columbia University, in Spring 2021. 
@@ -40,6 +41,7 @@ Please direct all questions to Ed Discussions, our course's question-and-answer 
 ## Getting Started
 
 Now that we have that, let's get started! First, let's set up a couple of accounts:
+
 
 2.  [Create a GitHub account](https://github.com/signup?user_email=&source=form-home-signup). Unless you're already well-established there, **please use your real name (or English name / preferred name, etc) as your username, and add a picture of yourself**.
 3.  Use that account to log into [our Zulip chatroom](https://icla2021.zulipchat.com/). (Click "sign up," then "sign up with GitHub.")
@@ -106,9 +108,10 @@ Note: this schedule is subject to some change, so please check the course websit
 
 ## Week 1  -  All the data on all the people:  Introduction to the scope of data collection  
 
-Sweeney, L. (n.d.). Chapter 2: All the Data on All the People. In The Sweet Spot: Harmonizing Technology and Society, Draft 2-01.10 (p. 45). https://berkeley.app.box.com/plsc2015papers/2/3072037805
-Latanya Sweeney - Where does your data go?  The DataMap
-These Apps Collect the Most Personal Data. (n.d.). PCMAG. Retrieved November 16, 2021, from https://www.pcmag.com/news/sick-of-data-collection-try-these-apps-instead
+ - [@sweeney_all]
+ - [@sweeney_data_1997]
+ - [@cohen_these]
+
 Looking at Cookies (see Cookie Analysis below)
 
 ### Assignment 1: Cookie Analysis
@@ -118,12 +121,14 @@ Looking at Cookies (see Cookie Analysis below)
 
 ## Week 2  -  Universalizing our ethical frameworks and the issue of consent
 
+ - [@piper_exclusive:_2019]
+ - [@montgomery_youth_2015]
+ 
+
 Western rationalist - virtue ethics
 Ubuntu ethics (Sabelo Mhlambi)
 Imagine PhD - type values assessment
-Piper, K. (2019, April 4). Exclusive: Google cancels AI ethics board in response to outcry. Vox. https://www.vox.com/future-perfect/2019/4/4/18295933/google-cancels-ai-ethics-board
-Youth and data tracking’s long-term consequences
-https://dl.acm.org/doi/abs/10.1016/j.telpol.2014.12.006
+
 Something about COPPA, maybe this:  https://scholarlycommons.law.northwestern.edu/cgi/viewcontent.cgi?article=1058&context=njlsp
 How ed tech is invading students’ privacy and bringing back “tracking” in schools
 
