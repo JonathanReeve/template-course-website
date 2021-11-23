@@ -15,6 +15,7 @@ executable course-data-ethics
         -Wincomplete-record-updates
         -Wincomplete-uni-patterns
     other-modules:
+        Shakefile,
         PandocSidenote,
         PandocUtils
     build-depends:
