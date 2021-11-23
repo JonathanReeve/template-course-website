@@ -1,0 +1,4 @@
+dist-newstyle
+dest/
+.direnv/
+content/.shake/.shake.database
