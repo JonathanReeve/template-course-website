@@ -108,9 +108,15 @@ Note: this schedule is subject to some change, so please check the course websit
 
 ## Week 1  -  All the data on all the people:  Introduction to the scope of data collection  
 
+
+ - [@sloane2019inequality]
  - [@sweeney_all]
  - [@sweeney_data_1997]
  - [@cohen_these]
+
+Optional readings (required for graduate students): 
+
+ - [@boyd2021]
 
 Looking at Cookies (see Cookie Analysis below)
 
@@ -121,42 +127,53 @@ Looking at Cookies (see Cookie Analysis below)
 
 ## Week 2  -  Universalizing our ethical frameworks and the issue of consent
 
+ - [@ai_ethics]
+ - [@mhlambi2020rationality]
+ - [@imaginePhD]
  - [@piper_exclusive:_2019]
- - [@montgomery_youth_2015]
  
+Optional readings (required for graduate students): 
 
-Western rationalist - virtue ethics
-Ubuntu ethics (Sabelo Mhlambi)
-Imagine PhD - type values assessment
-
-Something about COPPA, maybe this:  https://scholarlycommons.law.northwestern.edu/cgi/viewcontent.cgi?article=1058&context=njlsp
-How ed tech is invading students’ privacy and bringing back “tracking” in schools
+ - [@franzke2021]
+ - [@packer_change_2013]
+ - [@montgomery_youth_2015]
+ - [@matecki2010update]
+ 
 
 ### Assignment:
 Use a tool to rank your ethical values.  Write a reflection on your ethical framework and how you see it reflected (or not) within data-driven digital systems.  You might choose one platform, service, or tool and discuss any disconnects between your ethical framework and your experience of this artifact.
 
 ## Week 3  - Race, racism
-Ruha Benjamin (2019: Race After Technology, Chapter 1: “Introduction: The New Jim Code”
-Talks from DSI’s Race + Data Science Lecture series hosted by Desmond Patton
-Geoff Bowker and Susan Leigh Star, “The Case of Race Classification and Reclassification under Apartheid,” Ch. 6 in “Sorting Things Out: Classification and its Consequences” (MIT Press, 1999)
-Noble, Safiya. 2018. Algorithms of Oppression: How Search Engines Reinforce Racism. Chapter 1: “A Society, Searching”
-Surveillance and Race Online | Simone Browne at MozFest
-https://www.youtube.com/watch?v=lBwz-Jag1ZE 
-Charlton McIlwain: “Of course technology perpetuates racism. It was designed that way.” https://www.technologyreview.com/2020/06/03/1002589/technology-perpetuates-racism-by-design-simulmatics-charlton-mcilwain/
-Algorithmic recidivism calculation
 
+ - [@benjamin2019race] 
+ - [@noble2018algorithms]
+ - [@raji__2021]
+
+
+Optional readings (required for graduate students): 
+
+ - [@bowker2000sorting]
+ - [@race_data_science]
+ - [@browne_surveillance]
+ - [@mcilwain_technology]
+
+ 
 ### Possible assignment:  Jigsaw of the DSI Race + Data Science Lecture Series
 
 
 ## Week 4:  Algorithmic and data-driven tools in the criminal justice system
-Barry’s Lam’s podcast Hi Phi Nation episode “Pre-Crime Unit” which is about algorithmic policing
-corresponding paper by Renee Bolinger
-https://www.technologyreview.com/2019/10/17/75285/ai-fairer-than-judge-criminal-risk-assessment-algorithm/ (possible lab assignment?)
-Sarah Brayne, Angele Christin: “Technologies of Crime Prediction: The Reception of Algorithms in Policing and Criminal Courts”, Social Problems, 2020, 0, 1–17, http://www.angelechristin.com/wp-content/uploads/2020/03/Technologies-of-Crime-Prediction_SocProblems.pdf 
+ - [@hiphi_s3_2019]
+ - [@hao_2019]
+ 
+Optional readings (required for graduate students): 
+ 
+ - [@jorgensen_2021]
+ - [@brayne2020]
 
 ## Week 5:  Language Diversity and Justice
-Zaugg, Digital Surveillance and Digitally-disadvantaged Languages
-Donavyn Coffey, “Māori are trying to save their language from Big Tech”, Wired, April 2021,
+
+ - [@zaugg2021]
+ - [@coffey_maori]
 
 ### Assignment: Language Use Data Analysis
 Download an hour or two of tweets from Twitter.
@@ -167,33 +184,48 @@ What features do you notice with a non-national language, such as Basque?
 Do certain languages correlate with operating systems or platforms used to post the tweets?
 
 ## Week 6:  NLP and Computational Language Understanding
+
+ - [@bender2021dangers]
+ 
 Exploring AI Abusive Language detector inputs
 Exploring word embedding problems
-DeLuca, K. (2015). Selling or Spying: The Legal Implications of Target Marketing Through Geolocation Technologies. Law School Student Scholarship, Paper 656. http://scholarship.shu.edu/student_scholarship/656
-Emily Bender, Timnit Gebru, Angelina McMillan-Major, Margaret Mitchell: “On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?”, FAccT '21: Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency, March 2021 Pages 610–623 https://doi.org/10.1145/3442188.3445922
 
 ### Assignment: 
 Using TensorFlow Projector, find a neighborhood of words with one or two unexpected entries. 
 In 500 words, discuss: where morphological ambiguity (homographs) shows itself most clearly. How would this become a problem for NLP programs that use these embeddings? 
 
 ## Week 7 - Problems in Geography and Census Data
-Looking at location data tracking 
-https://www.omnisci.com/demos/tweetmap
-Ambiguity in digital map labels depending on location (Sea of Japan, Persian Gulf, Crimera, etc.)
-DeLuca, K. (2015). Selling or Spying: The Legal Implications of Target Marketing Through Geolocation Technologies. Law School Student Scholarship, Paper 656. http://scholarship.shu.edu/student_scholarship/656
-Assignment: Geographic Data Analysis
+
+ - [@ochigame2021]
+ 
+Optional readings (required for graduate students): 
+
+ - [@shahmirzadi_mapping_2018]
+ - [@deluca_selling_2015]
+ 
+ 
+### Assignment: Geographic Data Analysis
 1. Download data from the [1890 UK] census, and load it into a Pandas DataFrame.
 2. What do you notice about the geographic descriptors used?
 
 ## Week 8 -  Mobile Computing 
-Gsuite and its tracking of employee mobile locations
-Assignment 3: Mobile Data Analysis
+
+ - [@taylor2015]
+ 
+
+Optional readings (required for graduate students): 
+
+ - [@rooksby2016]
+ 
+### Assignment 3: Mobile Data Analysis
 1. Choose a Google service from Google Takeout, and download the associated data, using either your university (GSuite) account, or another.
 2. Load the data into a Pandas DataFrame object, and list its columns.
 3. In 500 words, write about what you notice. What columns or categories, if any, do you find surprising? What purpose do you think these categories serve, within the context of the application?
 4. Pretend you are a data analyst working at Google. What can you infer about yourself, based on this data alone?
 
 ## Week 9 - Web search
+ - [@ochigame2021]
+ 
 Using Duck Duck Go to search as if you are located in different locations
 Tool designed to provide Google Search results from multiple locations in the world (if accessible)
 Yahoo search engine data from the 1990s
@@ -205,24 +237,39 @@ Yahoo search engine data from the 1990s
 4. What can you tell about that person based on their search history alone?
 
 ## Week 10 - Health and data
-Sweeney, L. (n.d.). Putting Patient Names to Public Health Data, v0.6. Harvard University.
+
+ - [@wpf]
+ - [@szalavitz_drug_2021]
+
+
+Optional readings (required for graduate students): 
+
+ - [@sweeney_matching_2013]
+ - [@montgomery2018]
+ - [@duhigg_how_2012]
+ 
 Wearables:  https://www.jstor.org/stable/10.5325/jinfopoli.8.2018.0034
 Mental Health & data collection
-Maia Szalavitz “The Pain Was Unbearable. So Why Did Doctors Turn Her Away?”, Wired, August 2021, https://www.wired.com/story/opioid-drug-addiction-algorithm-chronic-pain/
-Health credit scores based on data tracking
-https://www.theverge.com/2021/10/26/22740187/oura-period-prediction-heart-rate-smart-ring
 Famous Target case of inferred pregnancy
 
 ### Assignment: Enable Google Fit for a day and track its results.
 [Or possibly a jigsaw of readings]
 
 ## Week 11  - Workers’ Rights and Data Collection
+
+ - [@ajunwa_black_2020] 
+ - [@sloane_now] 
+ - [@digital_gray] 
+ 
+ 
+Optional readings (required for graduate students): 
+
+ - [@winner1980artifacts]
+ - [@seabrook_age_2019]
+ - [@dilmegani_top_2020]
+
 Automated hiring is racist, classist, sexist, etc.:  https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3670785
 Alexandra Mateescu, Madeleine Claire Elish (2019): AI in Context, https://datasociety.net/library/ai-in-context/
-Mona Sloane (2020): Now Is the Time to Rethink AI, Automation and Employee Rights, https://www.brinknews.com/now-is-the-time-to-rethink-ai-automation-and-employee-rights/
-John Seabrook: “The Age of the Robot Farmer”, The New Yorker, April 8, 2019 https://www.newyorker.com/magazine/2019/04/15/the-age-of-robot-farmers
-Digital Future Society: “A Walk With Mary Gray” https://www.youtube.com/watch?v=ZGun7-_t_ck
-Cem Dilmegani: “Top 12 AI Use Cases in Manufacturing in 2021” https://research.aimultiple.com/manufacturing-ai/
 
 ## Week 12: Final Project Presentations
 

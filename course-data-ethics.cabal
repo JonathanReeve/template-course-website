@@ -15,13 +15,13 @@ executable course-data-ethics
         -Wincomplete-record-updates
         -Wincomplete-uni-patterns
     other-modules:
-        Shakefile,
-        PandocSidenote,
-        PandocUtils
+        PandocSidenote
     build-depends:
         base,
+        blaze-html,
         aeson,
         clay,
+        -- haskell-language-server,
         lucid,
         filepath,
         mtl,
@@ -30,4 +30,8 @@ executable course-data-ethics
         relude,
         shake,
         text,
-        with-utf8
+        with-utf8,
+        wai-app-static,
+        warp
+        -- wai-middleware-static,
+        -- wai-app-static
