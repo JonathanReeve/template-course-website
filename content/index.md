@@ -2,7 +2,8 @@
 title: "People vs. Algorithms: Data Ethics in the 21st Century" 
 author: Isabelle Zaugg, Jonathan Reeve
 date: 2021-07-05
-bibliography: references.bib
+bibliography: content/references.bib
+csl: content/custom-chicago.csl
 ---
 
 Welcome! Here you'll find all the course information for "People vs. Algorithms: Data Ethics in the 21st Century," a course taught in the Department of Statistics, at Columbia University, in Spring 2021. 
@@ -108,47 +109,52 @@ Note: this schedule is subject to some change, so please check the course websit
 
 ## Week 1  -  All the data on all the people:  Introduction to the scope of data collection  
 
+Required readings: 
 
- - [@sloane2019inequality]
+ - [[@sloane2019inequality]](/static/papers/sloane2019inequality.pdf)
  - [@sweeney_all]
- - [@sweeney_data_1997]
+ - [[@sweeney_data_1997]](https://thedatamap.org)
  - [@cohen_these]
 
 Optional readings (required for graduate students): 
 
- - [@boyd2021]
+ - [[@boyd2012]](/static/papers/boyd2012.pdf)
 
 Looking at Cookies (see Cookie Analysis below)
 
 ### Assignment 1: Cookie Analysis
-1. In preparation: read about [[https://www.privacypolicies.com/blog/eu-cookie-law/][European cookie laws]], and why they exist.
+
+1. In preparation: read about [EU cookie laws](https://www.privacypolicies.com/blog/eu-cookie-law/), and why they exist.
 2. In a text editor, open the cookie files saved by your web browser. Find a tracking cookie, a marketing cookie, and a simple login cookie. What do the contents of each look like?
 3. In 500 words or less, write about what you notice. Should websites be able to know what other websites you visit? Explore at least one reason why they should, and one reason why they shouldn't.
 
 ## Week 2  -  Universalizing our ethical frameworks and the issue of consent
 
- - [@ai_ethics]
- - [@mhlambi2020rationality]
- - [@imaginePhD]
- - [@piper_exclusive:_2019]
+Required readings: 
+
+ - [[@ai_ethics]](http://ai.ethicsworkshop.org/)
+ - [[@mhlambi2020rationality]](static/papers/mhlambi2020rationality.pdf)
+ - [[@imaginePhD]](https://www.imaginephd.com)
+ - [[@piper_exclusive:_2019]](https://www.vox.com/future-perfect/2019/4/4/18295933/google-cancels-ai-ethics-board)
  
 Optional readings (required for graduate students): 
 
- - [@franzke2021]
- - [@packer_change_2013]
- - [@montgomery_youth_2015]
- - [@matecki2010update]
+ - [[@franzke2021]](static/papers/franzke2021.pdf)
+ - [[@packer_change_2013]](https://www.newyorker.com/magazine/2013/05/27/change-the-world)
+ - [[@montgomery_youth_2015]](static/papers/montgomery_youth_2015.pdf)
+ - [[@matecki2010update]](static/papers/matecki2010update.pdf)
  
+### Assignment: 
 
-### Assignment:
 Use a tool to rank your ethical values.  Write a reflection on your ethical framework and how you see it reflected (or not) within data-driven digital systems.  You might choose one platform, service, or tool and discuss any disconnects between your ethical framework and your experience of this artifact.
 
 ## Week 3  - Race, racism
 
+Required readings: 
+
  - [@benjamin2019race] 
  - [@noble2018algorithms]
  - [@raji__2021]
-
 
 Optional readings (required for graduate students): 
 
@@ -162,39 +168,50 @@ Optional readings (required for graduate students):
 
 
 ## Week 4:  Algorithmic and data-driven tools in the criminal justice system
+
+Required readings: 
+
  - [@hiphi_s3_2019]
  - [@hao_2019]
  
 Optional readings (required for graduate students): 
  
  - [@jorgensen_2021]
- - [@brayne2020]
+ - [[@brayne2020]](https://via.hypothes.is/static/brayne2020.pdf)
 
 ## Week 5:  Language Diversity and Justice
+
+Required readings: 
 
  - [@zaugg2021]
  - [@coffey_maori]
 
 ### Assignment: Language Use Data Analysis
-Download an hour or two of tweets from Twitter.
-Quantify the languages used, as declared / inferred by Twitter.
-How do these compare with language use worldwide? What languages are over/under represented?
-Choose one non-European language, and find several tweets in the language. What do you notice about them?  You might look at the Indigenous Tweets project to find these.
-What features do you notice with a non-national language, such as Basque?
-Do certain languages correlate with operating systems or platforms used to post the tweets?
+
+ 1. Download an hour or two of tweets from Twitter.
+ 2. Quantify the languages used, as declared / inferred by Twitter.
+ 3. How do these compare with language use worldwide? What languages are over/under represented?
+ 4. Choose one non-European language, and find several tweets in the language. What do you notice about them?  You might look at the Indigenous Tweets project to find these.
+ 5. hat features do you notice with a non-national language, such as Basque?
+ 6. Do certain languages correlate with operating systems or platforms used to post the tweets?
 
 ## Week 6:  NLP and Computational Language Understanding
+
+Required readings: 
 
  - [@bender2021dangers]
  
 Exploring AI Abusive Language detector inputs
 Exploring word embedding problems
 
-### Assignment: 
-Using TensorFlow Projector, find a neighborhood of words with one or two unexpected entries. 
-In 500 words, discuss: where morphological ambiguity (homographs) shows itself most clearly. How would this become a problem for NLP programs that use these embeddings? 
+### Assignment 
+
+1. Using TensorFlow Projector, find a neighborhood of words with one or two unexpected entries. 
+2. In 500 words, discuss: where morphological ambiguity (homographs) shows itself most clearly. How would this become a problem for NLP programs that use these embeddings? 
 
 ## Week 7 - Problems in Geography and Census Data
+
+Required readings: 
 
  - [@ochigame2021]
  
@@ -205,25 +222,31 @@ Optional readings (required for graduate students):
  
  
 ### Assignment: Geographic Data Analysis
+
 1. Download data from the [1890 UK] census, and load it into a Pandas DataFrame.
 2. What do you notice about the geographic descriptors used?
 
 ## Week 8 -  Mobile Computing 
 
+Required readings: 
+
  - [@taylor2015]
  
-
 Optional readings (required for graduate students): 
 
  - [@rooksby2016]
  
 ### Assignment 3: Mobile Data Analysis
+
 1. Choose a Google service from Google Takeout, and download the associated data, using either your university (GSuite) account, or another.
 2. Load the data into a Pandas DataFrame object, and list its columns.
 3. In 500 words, write about what you notice. What columns or categories, if any, do you find surprising? What purpose do you think these categories serve, within the context of the application?
 4. Pretend you are a data analyst working at Google. What can you infer about yourself, based on this data alone?
 
 ## Week 9 - Web search
+
+Required readings: 
+
  - [@ochigame2021]
  
 Using Duck Duck Go to search as if you are located in different locations
@@ -238,9 +261,10 @@ Yahoo search engine data from the 1990s
 
 ## Week 10 - Health and data
 
+Required readings: 
+
  - [@wpf]
  - [@szalavitz_drug_2021]
-
 
 Optional readings (required for graduate students): 
 
@@ -257,10 +281,11 @@ Famous Target case of inferred pregnancy
 
 ## Week 11  - Workers’ Rights and Data Collection
 
+Required readings: 
+
  - [@ajunwa_black_2020] 
  - [@sloane_now] 
  - [@digital_gray] 
- 
  
 Optional readings (required for graduate students): 
 
