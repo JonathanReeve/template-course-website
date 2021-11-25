@@ -1,72 +1,28 @@
-# Computational Literary Analysis Readings
+# People vs. Algorithms: Data Ethics in the 21st Century
 
-This is the website containing course readings for the course Introduction to Computational Literary Analysis, taught at Columbia University in Fall 2020. 
+This is the source code for the course "People vs. Algorithms: Data Ethics in the 21st Century," taught in the Department of Statistics at Columbia University, in Spring 2021. 
 
-**Please refer to the course website for more information: https://icla2021.jonreeve.com**
+**Please refer to the course website for more information: https://data-ethics.jonreeve.com**
+
+## Repository Contents
+
+ - content/index.md - The course syllabus, in Markdown
+ - content/references.bib - The course bibliography, in Biblatex
+ - content/chicago-author-date.csl - A custom CSL file for formatting bibliographic citations as they appear in a syllabus. Based on Chicago style.
+ - dist/ - The output directory. This is where the HTML files end up. 
+ - src/ - The Haskell source code for building the site
+ - default.nix - The Nix file which specifies the dependencies needed. Loads the cabal file. 
+ - course-data-ethics.cabal - The Cabal file which actually specifies the Haskell dependencies. 
 
 ## Technical Details 
 
 **Nota bene: students need not do any of this. These are just instructions for building the website from scratch.**
 
-To build this site manually, install the [Nix package manager](https://nixos.org/nix/):
+This site is created in Haskell, using Shake, Pandoc, and Tufte-CSS.
 
-``` bash
-bash <(curl https://nixos.org/nix/install)
-```
-
-Optionally, enable the [Nix cache](https://srid.cachix.org/) if you would like to speed up local builds:
-
-``` bash
-# If you do not already have cachix, install it:
-nix-env -iA cachix -f https://cachix.org/api/v1/install
-# Enable nix cache for rib
-cachix use srid
-```
-
-## Running
-  
-To build and run the site:
+To build this site manually, ensure you have the the [Nix package manager](https://nixos.org/nix/) installed, and then run:
 
 ```bash
-nix-shell --run 'ghcid -T ":main -wS"'
+nix-shell --run 'cabal run'
 ```
 
-This launches a web server at http://localhost:8080 serving the statically
-generated content. Changing either `./src/Main.hs` or the content in `./content` 
-reloads everything.
-
-### Use a custom rib and port
-
-You might have a local checkout of rib with certain modifications. And you might
-want to run ghcid with the server running at a different port. Both of this can
-achieved using the following command:
-
-```bash
-# Assuming rib is cloned at ../rib
-nix-shell --arg rib ../rib --run 'ghcid -T ":main -ws :8081"'
-```
-
-## Building the executable
-
-A fully built executable can be produced using `nix-build`:
-
-```
-$ nix-build 
-...
-$ ./result/bin/rib-sample --help
-Usage: rib-sample [--rebuild-all] [-w|--watch] [(-s|--serve [HOST]:PORT) | -S] 
-                  [--quiet] [--input-dir INPUTDIR] [--output-dir OUTPUTDIR]
-  Generate a static site at OUTPUTDIR using input from INPUTDIR
-
-Available options:
-  --rebuild-all            Rebuild all sources
-  -w,--watch               Watch for changes and regenerate
-  -s,--serve [HOST]:PORT   Run a HTTP server on the generated directory
-  -S                       Like `-s 127.0.0.1:8080`
-  --quiet                  Log nothing
-  --input-dir INPUTDIR     Directory containing the source files (default:
-                           content)
-  --output-dir OUTPUTDIR   Directory where files will be generated (default:
-                           dest)
-  -h,--help                Show this help text
-```
