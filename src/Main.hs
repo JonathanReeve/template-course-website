@@ -3,6 +3,7 @@
 {-# LANGUAGE FlexibleContexts #-}
 {-# LANGUAGE AllowAmbiguousTypes #-}
 {-# LANGUAGE DeriveGeneric #-}
+{-# OPTIONS_GHC -Wno-unused-do-bind #-}
 
 import Development.Shake
 import Development.Shake.FilePath
@@ -49,7 +50,7 @@ main = withUtf8 $
   "dist/static/**/*" %> \out -> do
     let source = inputDir </> dropDirectory1 out
     need [source]
-    copyFile' source out
+    copyFileChanged source out
 
   -- Convert HTML files from markdown
   "dist//*.html" %> \out -> do
@@ -132,13 +133,13 @@ makePage content = do
       meta_ [ name_ "description", content_ "" ]
       meta_ [ name_ "keywords", content_ "" ]
       mapM (\uri -> link_ [ rel_ "stylesheet", href_ uri ]) [ "/static/tufte-css/tufte.min.css"
-                                                            , "/static/latex.css"
+                                                            , "/static/tufte-css/latex.css"
                                                             -- , "https://fonts.googleapis.com/css?family=Baumans"
                                                             ]
     body_ $ do
-      main_ $ toHtmlRaw content
+      article_ $ section_ [] $ toHtmlRaw content
       footer_ [] $ do
-        "Coda goes here."
+        "Coda goes here. Coda stuff here."
         script ""
 
 
