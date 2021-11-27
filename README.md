@@ -26,3 +26,12 @@ To build this site manually, ensure you have the the [Nix package manager](https
 nix-shell --run 'cabal run'
 ```
 
+To serve it on a local webserver: 
+
+```
+nix-shell --run 'cabal run course-data-ethics -- serve' 
+```
+
+(You can omit `nix-shell --run` if you have `direnv` installed, since the included .envrc automatically runs `nix-shell` for you.)
+
+

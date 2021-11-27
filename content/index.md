@@ -10,7 +10,7 @@ Welcome! Here you'll find all the course information for "People vs. Algorithms:
 
 ## Course Details 
 
-  - Stat 150C: "People vs. Algorithms: Data Ethics in the 21st Century" 
+  - STAT 1XXX: "People vs. Algorithms: Data Ethics in the 21st Century" 
   - Spring 2021
   - Classroom: TBA
   - Instructors: Isabelle Zaugg, Jonathan Reeve
@@ -41,14 +41,8 @@ Please direct all questions to Ed Discussions, our course's question-and-answer 
 
 ## Getting Started
 
-Now that we have that, let's get started! First, let's set up a couple of accounts:
-
-
-2.  [Create a GitHub account](https://github.com/signup?user_email=&source=form-home-signup). Unless you're already well-established there, **please use your real name (or English name / preferred name, etc) as your username, and add a picture of yourself**.
-3.  Use that account to log into [our Zulip chatroom](https://icla2021.zulipchat.com/). (Click "sign up," then "sign up with GitHub.")
-4.  Introduce yourself to everyone in the chatroom.
-5.  Sign up for a user account on [hypothes.is](https://hypothes.is), our annotation platform.
-6.  Download and install *[Anaconda](https://www.anaconda.com/products/individual)*, a Python distribution, which contains a lot of useful data science packages.
+1.  Sign up for a user account on [hypothes.is](https://hypothes.is), our annotation platform.
+2.  Download and install *[Anaconda](https://www.anaconda.com/products/individual)*, a Python distribution, which contains a lot of useful data science packages.
 
 ## Extra Resources
 
@@ -71,14 +65,11 @@ Coursework falls into three categories:
  - Final project (30% of final grade)
  - Attendance and participation (10% of final grade)
 
-### Readings
-
-
-### Annotations
+### Readings and Annotations
 
 For each reading assignment, please write **2-3 annotations to our editions of the text**, using [hypothes.is](http://hypothes.is). 
 
-Links are provided below. You'll have to sign up for a hypothes.is account first. As above, please use your real name as your username, so I know who you are. You may write about anything you want, but it will help your final project to think about ethical problems. Good annotations are:
+Links are provided below. You'll have to sign up for a hypothes.is account first. **Please use your real name as your username**, so I know who you are. You may write about anything you want, but it will help your final project to think about ethical problems. Good annotations are:
 
   - Concise (think: a long tweet)
   - Well-written (although not too formal)
@@ -146,7 +137,8 @@ Optional readings (required for graduate students):
  
 ### Assignment: 
 
-Use a tool to rank your ethical values.  Write a reflection on your ethical framework and how you see it reflected (or not) within data-driven digital systems.  You might choose one platform, service, or tool and discuss any disconnects between your ethical framework and your experience of this artifact.
+1. Use a tool to rank your ethical values.  
+2. Write a reflection on your ethical framework and how you see it reflected (or not) within data-driven digital systems.  You might choose one platform, service, or tool and discuss any disconnects between your ethical framework and your experience of this artifact.
 
 ## Week 3  - Race, racism
 

@@ -131,8 +131,9 @@ makePage content = do
       meta_ [ name_ "author", content_ "" ]
       meta_ [ name_ "description", content_ "" ]
       meta_ [ name_ "keywords", content_ "" ]
-      mapM (\uri -> link_ [ rel_ "stylesheet", href_ uri ]) [ "/includes/css/main.css"
-                                                            , "https://fonts.googleapis.com/css?family=Baumans"
+      mapM (\uri -> link_ [ rel_ "stylesheet", href_ uri ]) [ "/static/tufte-css/tufte.min.css"
+                                                            , "/static/latex.css"
+                                                            -- , "https://fonts.googleapis.com/css?family=Baumans"
                                                             ]
     body_ $ do
       main_ $ toHtmlRaw content
