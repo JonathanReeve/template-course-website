@@ -58,8 +58,14 @@ main = withUtf8 $
     let bib = inputDir </> "references.bib"
     need [source, bib]
     src <- liftIO $ TIO.readFile source
-    innerHtml <- liftIO $ md2html src
-    let templated = LT.toStrict $ renderText $ makePage innerHtml
+    doc <- liftIO $ runIO $ readMarkdown readerSettings src
+    doc' <- liftIO $ handleError doc
+    let title = getPandocTitle doc'
+    innerHtml <- liftIO $ runIO $ do
+      cited <- applyFilters readerSettings [CiteprocFilter] [] doc'
+      writeHtml5String def cited
+    innerHtml' <- liftIO $ handleError innerHtml
+    let templated = LT.toStrict $ renderText $ makePage title innerHtml'
     liftIO $ TIO.writeFile out templated
 
 
@@ -109,24 +115,16 @@ getPandocTitle doc = do
                Pandoc m _ -> m -- extract metadata
   stringify $ docTitle meta
 
--- Use Pandoc to convert markdown to html.
-md2html :: T.Text -> IO Text
-md2html mdDoc = do
-  result <- runIO $ do
-    doc <- readMarkdown readerSettings mdDoc
-    cited <- applyFilters readerSettings [CiteprocFilter] [] doc
-    writeHtml5String def cited
-  handleError result
 
 -- | Main template, scaffolds any page, given its parent heading
 --   ("index" if at the top level).
-makePage :: T.Text -> Html ()
-makePage content = do
+makePage :: T.Text -> T.Text -> Html ()
+makePage title content = do
   doctype_
   html_ $ do
     head_ $ do
       meta_ [ httpEquiv_ "Content-Type", content_ "text/html; charset=utf-8" ]
-      title_ ""
+      title_ $ toHtml title
       meta_ [ charset_ "utf-8" ]
       meta_ [ name_ "viewport", content_ "width=device-width, initial-scale=1, shrink-to-fit=no" ]
       meta_ [ name_ "author", content_ "" ]
@@ -137,7 +135,9 @@ makePage content = do
                                                             -- , "https://fonts.googleapis.com/css?family=Baumans"
                                                             ]
     body_ $ do
-      article_ $ section_ [] $ toHtmlRaw content
+      article_ $ do
+        h1_ [] $ toHtml title
+        section_ [] $ toHtmlRaw content
       footer_ [] $ do
         "Coda goes here. Coda stuff here."
         script ""

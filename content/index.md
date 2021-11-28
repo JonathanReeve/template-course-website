@@ -102,14 +102,14 @@ Note: this schedule is subject to some change, so please check the course websit
 
 Required readings: 
 
- - [[@sloane2019inequality]](/static/papers/sloane2019inequality.pdf)
- - [@sweeney_all]
+ - [[@sloane2019inequality]](http://via.hypothes.is/http://data-ethics.jonreeve.com/static/papers/sloane2019inequality.pdf)
+ - [[@sweeney_all]](http://via.hypothes.is/http://data-ethics.jonreeve.com/static/papers/sweeney_all.pdf)
  - [[@sweeney_data_1997]](https://thedatamap.org)
- - [@cohen_these]
+ - [[@cohen_these]](http://via.hypothes.is/http://data-ethics.jonreeve.com/static/papers/cohen_these.pdf)
 
 Optional readings (required for graduate students): 
 
- - [[@boyd2012]](/static/papers/boyd2012.pdf)
+ - [[@boyd2012]](http://via.hypothes.is/http://data-ethics.jonreeve.com/static/papers/boyd2012.pdf)
 
 Looking at Cookies (see Cookie Analysis below)
 
@@ -124,16 +124,16 @@ Looking at Cookies (see Cookie Analysis below)
 Required readings: 
 
  - [[@ai_ethics]](http://ai.ethicsworkshop.org/)
- - [[@mhlambi2020rationality]](static/papers/mhlambi2020rationality.pdf)
+ - [[@mhlambi2020rationality]](http://via.hypothes.is/http://data-ethics.jonreeve.com/static/papers/mhlambi2020rationality.pdf)
  - [[@imaginePhD]](https://www.imaginephd.com)
- - [[@piper_exclusive:_2019]](https://www.vox.com/future-perfect/2019/4/4/18295933/google-cancels-ai-ethics-board)
+ - [[@piper_exclusive:_2019]](https://via.hypothes.is/https://www.vox.com/future-perfect/2019/4/4/18295933/google-cancels-ai-ethics-board)
  
 Optional readings (required for graduate students): 
 
- - [[@franzke2021]](static/papers/franzke2021.pdf)
+ - [[@franzke2021]](http://via.hypothes.is/http://data-ethics.jonreeve.com/static/papers/franzke2021.pdf)
  - [[@packer_change_2013]](https://www.newyorker.com/magazine/2013/05/27/change-the-world)
- - [[@montgomery_youth_2015]](static/papers/montgomery_youth_2015.pdf)
- - [[@matecki2010update]](static/papers/matecki2010update.pdf)
+ - [[@montgomery_youth_2015]](http://via.hypothes.is/http://data-ethics.jonreeve.com/static/papers/montgomery_youth_2015.pdf)
+ - [[@matecki2010update]](http://via.hypothes.is/http://data-ethics.jonreeve.com/static/papers/matecki2010update.pdf)
  
 ### Assignment: 
 
