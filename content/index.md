@@ -29,12 +29,14 @@ This interdisciplinary course introduces students to the field of data ethics th
 
 At the end of this course, students will be able to: 
 
- 1. 
+ 1. Understand ethical challenges posed by the big data era.
+ 2. Analyze public data critically, with a sensitivity towards social issues.
+ 3. Develop a clear vision of their own ethical framework, and how best to apply it in the realm of data science.
+ 4. Develop skills for data analysis in the Python programming language. 
 
 ## Prerequisites
 
-This course presumes no prior knowledge of programming, computer science, or quantitative disciplines. Those with programming experience, however, won't find this boring: the level of specialization is such that only the first few weeks cover the basics.
-
+This course has no prerequisites. We will use the Python programming language for computational data analysis, and a crash course will be provided for those who are new to Python. 
 
 ### Course Communication 
 
@@ -42,8 +44,9 @@ Please direct all questions to our course chatroom on Matrix.
 
 ## Getting Started
 
-1.  Sign up for a user account on [hypothes.is](https://hypothes.is), our annotation platform.
-2.  Download and install *[Anaconda](https://www.anaconda.com/products/individual)*, a Python distribution, which contains a lot of useful data science packages.
+1. Sign up for a user account on [hypothes.is](https://hypothes.is), our annotation platform.
+2. Sign up for an account on Matrix, and introduce yourself in the course chatroom. 
+3. Download and install *[Anaconda](https://www.anaconda.com/products/individual)*, a Python distribution, which contains a lot of useful data science packages.
 
 ## Extra Resources
 
@@ -76,13 +79,13 @@ Links to the texts are provided below. You'll have to sign up for a hypothes.is 
 
 You may respond to another student's annotation for one or two of your annotations, if you want. Just make your responses equally as thoughtful.
 
-### Homework
+### Lab Assignments
 
-Homework assignments are due every week, one week after they're assigned. Please submit all homework on CourseWorks. 
+Lab assignments are due every week, one week after they're assigned. Please submit all homework on CourseWorks. 
 
 ### Final Project
 
-Your final project will be an focused exploration of a public data set, accompanied with a 
+Your final project will be an focused exploration of a public data set, accompanied with a discussion of the ethical issues that surround it. 
 
 During the final week of class, we'll have final project presentations. Your paper isn't required to be complete by then, but you'll be expected to speak about your project for 4 minutes. Consider it a conference presentation.
 
@@ -102,14 +105,16 @@ Note: this schedule is subject to some change, so please check the course websit
 
 Required readings: 
 
- - [[@sloane2019inequality]](http://via.hypothes.is/http://data-ethics.jonreeve.com/static/papers/sloane2019inequality.pdf)
- - [[@sweeney_all]](http://via.hypothes.is/http://data-ethics.jonreeve.com/static/papers/sweeney_all.pdf)
- - [[@sweeney_data_1997]](https://thedatamap.org)
- - [[@cohen_these]](http://via.hypothes.is/http://data-ethics.jonreeve.com/static/papers/cohen_these.pdf)
+ - TODO: add Ochigame paper: Ochigame, R. (2019, December 20). The Invention of “Ethical AI”: How Big Tech Manipulates Academia to Avoid Regulation. The Intercept. https://theintercept.com/2019/12/20/mit-ethical-ai-artificial-intelligence/
+ - [[@boyd2012]](http://via.hypothes.is/http://data-ethics.jonreeve.com/static/papers/boyd2012.pdf)
+ - TODO: Rachel Thomas. (2020, December 25). What are Ethics and Why do they Matter? Machine Learning Edition. 
+https://www.youtube.com/watch?v=F0cxzESR7ec&list=PLtmWHNX-gukIU6V33Bc8eP8OD41I4GywR&index=1
+ 
 
 Optional readings (required for graduate students): 
 
- - [[@boyd2012]](http://via.hypothes.is/http://data-ethics.jonreeve.com/static/papers/boyd2012.pdf)
+ - [[@sloane2019inequality]](http://via.hypothes.is/http://data-ethics.jonreeve.com/static/papers/sloane2019inequality.pdf)
+ - [[@sweeney_all]](http://via.hypothes.is/http://data-ethics.jonreeve.com/static/papers/sweeney_all.pdf)
 
 ### Assignment 1: Cookie Analysis
 
@@ -135,18 +140,18 @@ Optional readings (required for graduate students):
  
 ### Assignment: 
 
-1. Explore [The Moral Machine](https://www.moralmachine.net/)
-2. Use the Imagine PhD tool to rank your ethical values.  
-3. Write a reflection on your ethical framework and how you see it reflected (or not) within data-driven digital systems.  Fold in your ethical reaction to one tech ethics issue in the news:  
-
+1. Complete all 13 judgments of [The Moral Machine](https://www.moralmachine.net/) website. When asked, “Would you like to help us better understand your judgement,” press yes and read through the questions. 
+2. In 500 words, reflect on one or more choices you made in _The Moral Machine_, and why you made those choices.
+3. Use the [Imagine PhD tool](https://www.imaginephd.com/) to rank your ethical values.
+4. In 500 words, write a reflection on your ethical framework and how you see it reflected (or not) within data-driven digital systems.
 
 ## Week 3  - Race, racism
 
 Required readings: 
 
  - [@benjamin2019race] 
- - [@noble2018algorithms]
  - [@raji__2021]
+ - Watch:  https://www.youtube.com/watch?v=pbnqvS2yjNg&list=PLtmWHNX-gukIU6V33Bc8eP8OD41I4GywR&index=4
 
 Optional readings (required for graduate students): 
 
@@ -156,122 +161,12 @@ Optional readings (required for graduate students):
  - [@mcilwain_technology]
 
  
-### Possible assignment:  Jigsaw of the DSI Race + Data Science Lecture Series
+### Lab Assignment
 
+1. Design a housing algorithm to determine who gets assigned student housing. 
+2. Submit your Jupyter Notebook (.ipynb) file to CourseWorks. 
 
-## Week 4:  Algorithmic and data-driven tools in the criminal justice system
-
-Required readings: 
-
- - [@hiphi_s3_2019]
- - [@hao_2019]
- 
-Optional readings (required for graduate students): 
- 
- - [@jorgensen_2021]
- - [[@brayne2020]](https://via.hypothes.is/static/brayne2020.pdf)
-
-## Week 5:  Language Diversity and Justice
-
-Required readings: 
-
- - [@zaugg2021]
- - [@coffey_maori]
-
-### Assignment: Language Use Data Analysis
-
- 1. Download an hour or two of tweets from Twitter.
- 2. Quantify the languages used, as declared / inferred by Twitter.
- 3. How do these compare with language use worldwide? What languages are over/under represented?
- 4. Choose one non-European language, and find several tweets in the language. What do you notice about them?  You might look at the Indigenous Tweets project to find these.
- 5. hat features do you notice with a non-national language, such as Basque?
- 6. Do certain languages correlate with operating systems or platforms used to post the tweets?
-
-## Week 6:  NLP and Computational Language Understanding
-
-Required readings: 
-
- - [@bender2021dangers]
- 
-Exploring AI Abusive Language detector inputs
-Exploring word embedding problems
-
-### Assignment 
-
-1. Using TensorFlow Projector, find a neighborhood of words with one or two unexpected entries. 
-2. In 500 words, discuss: where morphological ambiguity (homographs) shows itself most clearly. How would this become a problem for NLP programs that use these embeddings? 
-
-## Week 7 - Problems in Geography and Census Data
-
-Required readings: 
-
- - [@ochigame2021]
- 
-Optional readings (required for graduate students): 
-
- - [@shahmirzadi_mapping_2018]
- - [@deluca_selling_2015]
- 
- 
-### Assignment: Geographic Data Analysis
-
-1. Download data from the [1890 UK] census, and load it into a Pandas DataFrame.
-2. What do you notice about the geographic descriptors used?
-
-## Week 8 -  Mobile Computing 
-
-Required readings: 
-
- - [@taylor2015]
- 
-Optional readings (required for graduate students): 
-
- - [@rooksby2016]
- 
-### Assignment 3: Mobile Data Analysis
-
-1. Choose a Google service from Google Takeout, and download the associated data, using either your university (GSuite) account, or another.
-2. Load the data into a Pandas DataFrame object, and list its columns.
-3. In 500 words, write about what you notice. What columns or categories, if any, do you find surprising? What purpose do you think these categories serve, within the context of the application?
-4. Pretend you are a data analyst working at Google. What can you infer about yourself, based on this data alone?
-
-## Week 9 - Web search
-
-Required readings: 
-
- - [@ochigame2021]
- 
-Using Duck Duck Go to search as if you are located in different locations
-Tool designed to provide Google Search results from multiple locations in the world (if accessible)
-Yahoo search engine data from the 1990s
-
-### Assignment: Web Search Data Analysis
-1. In preparation: read [an article critiquing this data set].
-2. Download a sample from the [Yahoo anonymized web search data set].
-3. Choose a single user's search history. It should be someone with at least 50 searches.
-4. What can you tell about that person based on their search history alone?
-
-## Week 10 - Health and data
-
-Required readings: 
-
- - [@wpf]
- - [@szalavitz_drug_2021]
-
-Optional readings (required for graduate students): 
-
- - [@sweeney_matching_2013]
- - [@montgomery2018]
- - [@duhigg_how_2012]
- 
-Wearables:  https://www.jstor.org/stable/10.5325/jinfopoli.8.2018.0034
-Mental Health & data collection
-Famous Target case of inferred pregnancy
-
-### Assignment: Enable Google Fit for a day and track its results.
-[Or possibly a jigsaw of readings]
-
-## Week 11  - Workers’ Rights and Data Collection
+## Week 4  - Workers’ Rights and Data Collection
 
 Required readings: 
 
@@ -285,9 +180,152 @@ Optional readings (required for graduate students):
  - [@seabrook_age_2019]
  - [@dilmegani_top_2020]
 
-Automated hiring is racist, classist, sexist, etc.:  https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3670785
-Alexandra Mateescu, Madeleine Claire Elish (2019): AI in Context, https://datasociety.net/library/ai-in-context/
+### Assignment
+
+1. Design an algorithm that determines whom your fictional company will hire. 
+2. Parameters TBA. 
+
+## Week 5:  Algorithmic and data-driven tools in the criminal justice system
+
+Required readings: 
+
+ - [@hiphi_s3_2019]
+ - [@hao_2019]
+ 
+Optional readings (required for graduate students): 
+ 
+ - [@jorgensen_2021]
+ - [[@brayne2020]](https://via.hypothes.is/static/brayne2020.pdf)
+
+### Assignment
+
+ 1. Load the [ProPublica Compas data](https://github.com/propublica/compas-analysis/blob/master/compas-scores.csv) into a Pandas DataFrame object. 
+ 2. Run `.describe()` on the DataFrame. 
+ 3. Run `.describe()` on several individual columns. 
+ 4. Create 2-3 plots of the data in individual columns.
+ 5. In 800 words, write about what you notice about these trends. Which columns are categorical data, and which are quantitative? You might want to address anything you notice about the choice of columns, or categories (of age and race). 
+ 6. Submit your Jupyter Notebook (.ipynb) file to CourseWorks. 
+ 
+## Week 6:  Language Diversity and Justice
+
+Required readings: 
+
+ - Zaugg, I. A. (2019, December 4). Digital Surveillance and Digitally-disadvantaged Language Communities. International Conference Language Technologies for All, UNESCO Headquarters, Paris, France. 
+https://lt4all.elra.info/media/papers/O8/188.pdf
+
+ - [@coffey_maori]
+ 
+- Watch:  Desir, N., & Dawkins, K. A. (2021, March 10). Columbia Language Justice Perspectives Project. Columbia Data Science Institute. 
+https://www.youtube.com/watch?v=oCUw0lOBVYo
+
+ - Explore:  Desir, N., & Dawkins, K. A. (2020). The Columbia Language Justice Perspectives Project. MapHub. 
+https://maphub.net/KAnnD2020/CLJPP2020
+
+Optional readings (required for graduate students): 
+
+Paullada, A. (2021, July 31). Machine Translation Shifts Power. The Gradient. 
+https://thegradient.pub/machine-translation-shifts-power/
+
+
+### Assignment: Language Use Data Analysis
+
+1. Choose a language from [Indigenous Tweets](http://www.indigenoustweets.com/). 
+2. Using the Twitter API, collect at least 1000 tweets in that language into a Pandas DataFrame. 
+3. Use `.describe()` to discover large-scale patterns in these tweets. 
+4. Create at least one plot, using `.plot()` or equivalent. 
+5. In 800 words, write about any trends you discover. You might want to discuss: (a) the data Twitter chooses to record, and make available in its API, (b) the most common operating systems used by speakers of these languages, (c) the geographic locations, if available, of these Twitter users. 
+
+## Week 7:  NLP and Computational Language Understanding
+
+Required readings: 
+
+ - [@bender2021dangers]
+ - Metz, C., & Wakabayashi, D. (2020, December 3). Google Researcher Says She Was Fired Over Paper Highlighting Bias in A.I. The New York Times. 
+https://www.nytimes.com/2020/12/03/technology/google-researcher-timnit-gebru.html
+ 
+Optional readings (required for graduate students): 
+ 
+ - Bird, S. (2020). Decolonising Speech and Language Technology. Proceedings of the 28th International Conference on Computational Linguistics, 3504–3519. 
+https://doi.org/10.18653/v1/2020.coling-main.313
+ 
+### Assignment 
+
+Undergrads: 
+
+1. Using TensorFlow Projector, find a neighborhood of words with one or two unexpected entries. 
+2. In 500 words, discuss: where morphological ambiguity (homographs) shows itself most clearly. How would this become a problem for NLP programs that use these embeddings? 
+
+## Week 8 - Problems in Geography and Census Data
+
+Required readings: 
+
+ - [@shahmirzadi_mapping_2018]
+ 
+Optional readings (required for graduate students): 
+
+ - [@deluca_selling_2015]
+ 
+ 
+### Assignment: Geographic Data Analysis
+
+1. Download data from the 1920 and the 2020 United States Census.
+2. Load each into Pandas DataFrames. 
+3. Create plots for one or more columns in each.
+2. In 500 words, write about what you notice about the columns used in each, and any trends you see that diverge over these hundred years. 
+
+
+## Week 9 -  Mobile Computing 
+
+Required readings: 
+
+ - [@taylor2015]
+ - TODO: grab original paper from the Cohen
+ - [[@cohen_these]](http://via.hypothes.is/http://data-ethics.jonreeve.com/static/papers/cohen_these.pdf)
+ 
+Optional readings (required for graduate students): 
+
+ - [@rooksby2016]
+ 
+### Assignment: Mobile Data Analysis
+
+1. Choose a Google service from Google Takeout, and download the associated data, using either your university (GSuite) account, or another.
+2. Load the data into a Pandas DataFrame object, and list its columns.
+3. In 500 words, write about what you notice. What columns or categories, if any, do you find surprising? What purpose do you think these categories serve, within the context of the application? Pretend you are a data analyst working at Google. What can you infer about yourself, based on this data alone?
+
+## Week 10 - Web search
+
+Required readings: 
+
+ - [@ochigame2021]
+ - [@noble2018algorithms]
+ 
+### Assignment
+
+In 1000 words, write a proposal for your final project. Describe, at minimum: 
+
+1. Your chosen data set. 
+2. The history and context of your data set. Who created it? For what purpose?
+3. Any ethical issues with the data set that you may recognize at this stage. 
+4. Goals of your project. Think about moving beyond recognizing problems, towards identifying solutions that reflect your ethical framework.
+
+
+## Week 11 - Health and data
+
+Required readings: 
+
+ - [@wpf]
+ - [@szalavitz_drug_2021]
+ - [[@sweeney_data_1997]](https://thedatamap.org)
+
+Optional readings (required for graduate students): 
+
+ - [@sweeney_matching_2013]
+ - [@montgomery2018]
+ - [@duhigg_how_2012]
+
+### Assignment
+
+No assignment; final project presentations due next week.
 
 ## Week 12: Final Project Presentations
-
 ## Week 13: Final Project Presentations
