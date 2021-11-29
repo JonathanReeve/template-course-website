@@ -22,10 +22,14 @@ Welcome! Here you'll find all the course information for "People vs. Algorithms:
 
 ## Description
 
-This course introduces students to the field of data ethics through an exploration of the societal impacts of data-driven technologies.  This interdisciplinary course bridges the philosophy of ethics, humanities and social science scholarship, and computational thinking and practice.  The course includes hands-on, guided lab activities where students will wrestle with intellectually-challenging ethical questions first-hand.  The course is designed for students from every discipline and will support the development of introductory computational skill sets for beginners. 
+This interdisciplinary course introduces students to the field of data ethics through an exploration of the societal impacts of data-driven technologies.  This course bridges the philosophy of ethics, humanities and social science scholarship, and computational thinking and practice.  To evaluate writing assignments, the course utilizes the Ethical Reasoning Value Rubric.  The course includes hands-on, guided lab activities where students wrestle with intellectually-challenging ethical questions first-hand.  The course is designed for students from all disciplinary backgrounds and supports the development of introductory computational skill sets for beginners.  An interest in Python is recommended, and a crash course will be provided in Week 3 for students who are new to Python. The course meets twice weekly: once for discussions, and once for a lab. 
+
 
 ## Objectives
 
+At the end of this course, students will be able to: 
+
+ 1. 
 
 ## Prerequisites
 
@@ -34,10 +38,7 @@ This course presumes no prior knowledge of programming, computer science, or qua
 
 ### Course Communication 
 
-Please direct all questions to Ed Discussions, our course's question-and-answer platform. 
-
-### Labs
-
+Please direct all questions to our course chatroom on Matrix. 
 
 ## Getting Started
 
@@ -45,8 +46,6 @@ Please direct all questions to Ed Discussions, our course's question-and-answer 
 2.  Download and install *[Anaconda](https://www.anaconda.com/products/individual)*, a Python distribution, which contains a lot of useful data science packages.
 
 ## Extra Resources
-
-### Programming Resources
 
 If you want some extra help, or want to read a little more about some of the things we're doing, there are plenty of resources out there. If you want a second opinion about a question, or have questions that we can't answer in the chatroom, a good website for getting help with programming is [StackOverflow](https://stackoverflow.com). Also, the Internet is full of Python learning resources. One of my favorites is [CodeCademy](https://codecademy.com), which has a game-like interactive interface, badges, and more. There's also the fantastic interactive textbook [How to Think Like a Computer Scientist](https://runestone.academy/runestone/books/published/thinkcspy/index.html), which is the textbook for *Computing in Context,* the introduction to Python at Columbia's Computer Science department.
 
@@ -69,7 +68,7 @@ Coursework falls into three categories:
 
 For each reading assignment, please write **2-3 annotations to our editions of the text**, using [hypothes.is](http://hypothes.is). 
 
-Links are provided below. You'll have to sign up for a hypothes.is account first. **Please use your real name as your username**, so I know who you are. You may write about anything you want, but it will help your final project to think about ethical problems. Good annotations are:
+Links to the texts are provided below. You'll have to sign up for a hypothes.is account first. **Please use your real name as your username**, so I know who you are. You may write about anything you want, but it will help your final project to think about ethical problems. Good annotations are:
 
   - Concise (think: a long tweet)
   - Well-written (although not too formal)
@@ -79,20 +78,21 @@ You may respond to another student's annotation for one or two of your annotatio
 
 ### Homework
 
+Homework assignments are due every week, one week after they're assigned. Please submit all homework on CourseWorks. 
 
 ### Final Project
+
+Your final project will be an focused exploration of a public data set, accompanied with a 
 
 During the final week of class, we'll have final project presentations. Your paper isn't required to be complete by then, but you'll be expected to speak about your project for 4 minutes. Consider it a conference presentation.
 
 Final papers will be evaluated according to the:
 
-  - Quality of the literary critical argument presented
-  - Quality of the close readings of the text or corpus
-  - Quality of the Python text analysis
-  - Literary interpretation of the results
-  - Integration of the computational analysis with the literary argument
+  - Quality of the computational data analysis
+  - Quality of your interpretation of the data
+  - Integration of the computational analysis with the interpretation
 
-As with homework, please submit these on CourseWorks, or email them to me if you don't have access to CourseWorks. You may optionally submit your final project to the course git repository, making it public, for a 5% bonus.
+As with homework, please submit these on CourseWorks. You may optionally submit your final project to the course git repository, making it public, for a 5% bonus.
 
 # Schedule
 
@@ -111,13 +111,11 @@ Optional readings (required for graduate students):
 
  - [[@boyd2012]](http://via.hypothes.is/http://data-ethics.jonreeve.com/static/papers/boyd2012.pdf)
 
-Looking at Cookies (see Cookie Analysis below)
-
 ### Assignment 1: Cookie Analysis
 
 1. In preparation: read about [EU cookie laws](https://www.privacypolicies.com/blog/eu-cookie-law/), and why they exist.
-2. In a text editor, open the cookie files saved by your web browser. Find a tracking cookie, a marketing cookie, and a simple login cookie. What do the contents of each look like?
-3. In 500 words or less, write about what you notice. Should websites be able to know what other websites you visit? Explore at least one reason why they should, and one reason why they shouldn't.
+2. In a text editor, open the cookie files saved by your web browser.  Find a tracking cookie, a marketing cookie, and a simple login cookie. What do the contents of each look like?
+3. In 500 words, write about what you notice. Should websites be able to know what other websites you visit? Explore at least one reason why they should, and one reason why they shouldn't.
 
 ## Week 2  -  Universalizing our ethical frameworks and the issue of consent
 
@@ -131,14 +129,16 @@ Required readings:
 Optional readings (required for graduate students): 
 
  - [[@franzke2021]](http://via.hypothes.is/http://data-ethics.jonreeve.com/static/papers/franzke2021.pdf)
- - [[@packer_change_2013]](https://www.newyorker.com/magazine/2013/05/27/change-the-world)
+ - [[@packer_change_2013]](https://via.hypothes.is/https://www.newyorker.com/magazine/2013/05/27/change-the-world)
  - [[@montgomery_youth_2015]](http://via.hypothes.is/http://data-ethics.jonreeve.com/static/papers/montgomery_youth_2015.pdf)
  - [[@matecki2010update]](http://via.hypothes.is/http://data-ethics.jonreeve.com/static/papers/matecki2010update.pdf)
  
 ### Assignment: 
 
-1. Use a tool to rank your ethical values.  
-2. Write a reflection on your ethical framework and how you see it reflected (or not) within data-driven digital systems.  You might choose one platform, service, or tool and discuss any disconnects between your ethical framework and your experience of this artifact.
+1. Explore [The Moral Machine](https://www.moralmachine.net/)
+2. Use the Imagine PhD tool to rank your ethical values.  
+3. Write a reflection on your ethical framework and how you see it reflected (or not) within data-driven digital systems.  Fold in your ethical reaction to one tech ethics issue in the news:  
+
 
 ## Week 3  - Race, racism
 
