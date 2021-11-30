@@ -52,7 +52,7 @@ Please direct all questions to our course chatroom on Matrix.
 
 If you want some extra help, or want to read a little more about some of the things we're doing, there are plenty of resources out there. If you want a second opinion about a question, or have questions that we can't answer in the chatroom, a good website for getting help with programming is [StackOverflow](https://stackoverflow.com). Also, the Internet is full of Python learning resources. One of my favorites is [CodeCademy](https://codecademy.com), which has a game-like interactive interface, badges, and more. There's also the fantastic interactive textbook [How to Think Like a Computer Scientist](https://runestone.academy/runestone/books/published/thinkcspy/index.html), which is the textbook for *Computing in Context,* the introduction to Python at Columbia's Computer Science department.
 
-A colleague and I have also put together a few guides for beginning programming: 
+Jonathan Reeve and a colleague have also put together a few guides for beginning programming: 
 
  - [Common Error Messages and How to Fix Them](https://github.com/JonathanReeve/course-computational-literary-analysis/blob/master/Resources/errors.md)
  - [A glossary of frequently used Python terminology](https://github.com/JonathanReeve/course-computational-literary-analysis/blob/master/Resources/frequently_used_terms.md)
@@ -85,7 +85,7 @@ Lab assignments are due every week, one week after they're assigned. Please subm
 
 ### Final Project
 
-Your final project will be an focused exploration of a public data set, accompanied with a discussion of the ethical issues that surround it. 
+Your final project will be a focused exploration of a public data set, accompanied by a discussion of the ethical issues that surround it. 
 
 During the final week of class, we'll have final project presentations. Your paper isn't required to be complete by then, but you'll be expected to speak about your project for 4 minutes. Consider it a conference presentation.
 
@@ -94,6 +94,7 @@ Final papers will be evaluated according to the:
   - Quality of the computational data analysis
   - Quality of your interpretation of the data
   - Integration of the computational analysis with the interpretation
+  - Your nuanced and well-rounded ethical engagement with the topic
 
 As with homework, please submit these on CourseWorks. You may optionally submit your final project to the course git repository, making it public, for a 5% bonus.
 
