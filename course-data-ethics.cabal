@@ -16,7 +16,6 @@ executable course-data-ethics
         -Wincomplete-uni-patterns
     other-modules:
         PandocSidenote
-        Syllabus
     build-depends:
         base,
         blaze-html,

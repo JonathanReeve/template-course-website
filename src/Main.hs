@@ -11,6 +11,28 @@ import qualified Data.Text.Lazy as LT
 import qualified Data.Text as T
 import qualified Data.Text.IO as TIO
 import Lucid
+    ( src_,
+      script_,
+      footer_,
+      section_,
+      h1_,
+      article_,
+      body_,
+      href_,
+      rel_,
+      link_,
+      name_,
+      charset_,
+      title_,
+      content_,
+      httpEquiv_,
+      meta_,
+      head_,
+      html_,
+      doctype_,
+      renderText,
+      ToHtml(toHtmlRaw, toHtml),
+      Html )
 import Text.Pandoc
 import Text.Pandoc.Shared (stringify)
 -- Server stuff
