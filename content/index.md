@@ -213,8 +213,7 @@ Required readings:
 
 Optional readings (required for graduate students): 
 
- - Paullada, A. (2021, July 31). Machine Translation Shifts Power. The Gradient. 
-https://thegradient.pub/machine-translation-shifts-power/
+ - [[@paullada_machine_2021]](https://thegradient.pub/machine-translation-shifts-power/)
 
 
 ### Assignment: Language Use Data Analysis
@@ -234,7 +233,7 @@ Required readings:
  
 Optional readings (required for graduate students): 
  
- - [[@bird_decolonising_2020]](http://via.hypothes.is/http://data-ethics.jonreeve.com/static/papers/bird2020.pdf)
+ - [[@bird2020]](http://via.hypothes.is/http://data-ethics.jonreeve.com/static/papers/bird2020.pdf)
  
 ### Assignment 
 
