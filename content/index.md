@@ -245,8 +245,6 @@ Optional readings (required for graduate students):
  
 ### Assignment 
 
-Undergrads: 
-
 1. Using TensorFlow Projector, find a neighborhood of words with one or two unexpected entries. 
 2. In 500 words, discuss: where morphological ambiguity (homographs) shows itself most clearly. How would this become a problem for NLP programs that use these embeddings? 
 
