@@ -69,13 +69,11 @@ Coursework falls into three categories:
 
 ### Readings and Annotations
 
-For each reading assignment, please write **2-3 annotations to our editions of the text**, using [hypothes.is](http://hypothes.is). 
-
-Links to the texts are provided below. You'll have to sign up for a hypothes.is account first. **Please use your real name as your username**, so I know who you are. You may write about anything you want, but it will help your final project to think about ethical problems. Good annotations are:
+For each reading assignment, please write **2-3 annotations to our editions of the text**, using [hypothes.is](http://hypothes.is). Annotations are not required for videos or other non-textual websites. Links to the texts are provided below. You'll have to sign up for a hypothes.is account first. **Please use your real name as your username**, so we know who you are. You may write about anything you want, but it will help your final project to think about ethical problems. Good annotations are:
 
   - Concise (think: a long tweet)
-  - Well-written (although not too formal)
-  - Observant (rather than evaluative)
+  - Well-written
+  - Observant, rather than evaluative
 
 You may respond to another student's annotation for one or two of your annotations, if you want. Just make your responses equally as thoughtful.
 
@@ -124,10 +122,10 @@ Optional readings (required for graduate students):
     
 Required readings: 
 
- - [[@ai_ethics]](http://ai.ethicsworkshop.org/)
  - [[@mhlambi2020rationality]](http://via.hypothes.is/http://data-ethics.jonreeve.com/static/papers/mhlambi2020rationality.pdf)
- - [[@imaginePhD]](https://www.imaginephd.com)
  - [[@piper_exclusive:_2019]](https://via.hypothes.is/https://www.vox.com/future-perfect/2019/4/4/18295933/google-cancels-ai-ethics-board)
+ - [[@ai_ethics]](http://ai.ethicsworkshop.org/)
+ - [[@imaginePhD]](https://www.imaginephd.com)
  
 Optional readings (required for graduate students): 
 
@@ -208,16 +206,10 @@ Optional readings (required for graduate students):
 
 Required readings: 
 
- - Zaugg, I. A. (2019, December 4). Digital Surveillance and Digitally-disadvantaged Language Communities. International Conference Language Technologies for All, UNESCO Headquarters, Paris, France. 
-https://lt4all.elra.info/media/papers/O8/188.pdf
-
+ - [[@zaugg2019]](http://via.hypothes.is/http://data-ethics.jonreeve.com/static/papers/zaugg2019.pdf)
  - [@coffey_maori]
- 
-- Watch:  Desir, N., & Dawkins, K. A. (2021, March 10). Columbia Language Justice Perspectives Project. Columbia Data Science Institute. 
-https://www.youtube.com/watch?v=oCUw0lOBVYo
-
- - Explore:  Desir, N., & Dawkins, K. A. (2020). The Columbia Language Justice Perspectives Project. MapHub. 
-https://maphub.net/KAnnD2020/CLJPP2020
+ - [[@desir2021]](https://www.youtube.com/watch?v=oCUw0lOBVYo)
+ - [[@desir2020]](https://maphub.net/KAnnD2020/CLJPP2020)
 
 Optional readings (required for graduate students): 
 
@@ -237,12 +229,12 @@ https://thegradient.pub/machine-translation-shifts-power/
 
 Required readings: 
 
- - [@bender2021dangers]
- - [Metz, C., & Wakabayashi, D. (2020, December 3). Google Researcher Says She Was Fired Over Paper Highlighting Bias in A.I. The New York Times.]( https://www.nytimes.com/2020/12/03/technology/google-researcher-timnit-gebru.html)
+ - [[@bender2021dangers]](http://via.hypothes.is/http://data-ethics.jonreeve.com/static/papers/bender2021dangers.pdf)
+ - [[@metz_google_2020]](http://via.hypothes.is/https://www.nytimes.com/2020/12/03/technology/google-researcher-timnit-gebru.html)
  
 Optional readings (required for graduate students): 
  
- - [Bird, S. (2020). Decolonising Speech and Language Technology. Proceedings of the 28th International Conference on Computational Linguistics, 3504–3519.](https://doi.org/10.18653/v1/2020.coling-main.313)
+ - [[@bird_decolonising_2020]](http://via.hypothes.is/http://data-ethics.jonreeve.com/static/papers/bird2020.pdf)
  
 ### Assignment 
 
