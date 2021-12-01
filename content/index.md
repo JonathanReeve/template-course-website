@@ -102,11 +102,10 @@ As with homework, please submit these on CourseWorks. You may optionally submit 
 
 Note: this schedule is subject to some change, so please check the course website for the most up-to-date version.
 
-## Week 1: All the data on all the people:  Introduction to the scope of data collection  
+## Week 1: All the data on all the people
 
 Required readings: 
 
- - [[@ochigame_invention_2019]](https://via.hypothes.is/https://theintercept.com/2019/12/20/mit-ethical-ai-artificial-intelligence/)
  - [[@boyd2012]](http://via.hypothes.is/http://data-ethics.jonreeve.com/static/papers/boyd2012.pdf)
  - [[@thomas_what_2020]](https://www.youtube.com/watch?v=F0cxzESR7ec)
  
@@ -121,7 +120,7 @@ Optional readings (required for graduate students):
 2. In a text editor, open the cookie files saved by your web browser.  Find a tracking cookie, a marketing cookie, and a simple login cookie. What do the contents of each look like?
 3. In 500 words, write about what you notice. Should websites be able to know what other websites you visit? Explore at least one reason why they should, and one reason why they shouldn't.
 
-## Week 2: Universalizing our ethical frameworks and the issue of consent
+## Week 2: Ethical frameworks in tech
     
 Required readings: 
 
@@ -143,7 +142,7 @@ Optional readings (required for graduate students):
 3. Use the [Imagine PhD tool](https://www.imaginephd.com/) to rank your ethical values.
 4. In 500 words, write a reflection on your ethical framework and how you see it reflected (or not) within data-driven digital systems.
 
-## Week 3: Race, racism
+## Week 3: Algorithmic racism
 
 Required readings: 
 
@@ -163,7 +162,7 @@ Optional readings (required for graduate students):
 1. Design a housing algorithm to determine who gets assigned student housing. 
 2. Submit your Jupyter Notebook (.ipynb) file to CourseWorks. 
 
-## Week 4: Workers’ Rights and Data Collection
+## Week 4: Workers’ rights and data collection
 
 Required readings: 
 
@@ -183,7 +182,7 @@ Optional readings (required for graduate students):
 2. Parameters TBA. 
 2. Submit your Jupyter Notebook (.ipynb) file to CourseWorks. 
 
-## Week 5: Algorithmic and data-driven tools in the criminal justice system
+## Week 5: Algorithms in the criminal justice system
 
 Required readings: 
 
@@ -192,6 +191,7 @@ Required readings:
  
 Optional readings (required for graduate students): 
  
+ - [[@ochigame_invention_2019]](https://via.hypothes.is/https://theintercept.com/2019/12/20/mit-ethical-ai-artificial-intelligence/)
  - [@jorgensen_2021]
  - [[@brayne2020]](https://via.hypothes.is/static/brayne2020.pdf)
 
@@ -204,7 +204,7 @@ Optional readings (required for graduate students):
  5. In 800 words, write about what you notice about these trends. Which columns are categorical data, and which are quantitative? You might want to address anything you notice about the choice of columns, or categories (of age and race). 
  6. Submit your Jupyter Notebook (.ipynb) file to CourseWorks. 
  
-## Week 6: Language Diversity and Justice
+## Week 6: Language diversity and digital justice
 
 Required readings: 
 
@@ -233,7 +233,7 @@ https://thegradient.pub/machine-translation-shifts-power/
 4. Create at least one plot, using `.plot()` or equivalent. 
 5. In 800 words, write about any trends you discover. You might want to discuss: (a) the data Twitter chooses to record, and make available in its API, (b) the most common operating systems used by speakers of these languages, (c) the geographic locations, if available, of these Twitter users. 
 
-## Week 7: NLP and Computational Language Understanding
+## Week 7: Ethical dimensions of NLP (natural language processing)
 
 Required readings: 
 
@@ -249,7 +249,7 @@ Optional readings (required for graduate students):
 1. Using TensorFlow Projector, find a neighborhood of words with one or two unexpected entries. 
 2. In 500 words, discuss: where morphological ambiguity (homographs) shows itself most clearly. How would this become a problem for NLP programs that use these embeddings? 
 
-## Week 8: Problems in Geography and Census Data
+## Week 8: Geographic and demographic data ethics
 
 Required readings: 
 
@@ -268,7 +268,7 @@ Optional readings (required for graduate students):
 2. In 500 words, write about what you notice about the columns used in each, and any trends you see that diverge over these hundred years. 
 
 
-## Week 9: Mobile Computing 
+## Week 9: The data "firehose" of mobile computing 
 
 Required readings: 
 
@@ -285,7 +285,7 @@ Optional readings (required for graduate students):
 2. Load the data into a Pandas DataFrame object, and list its columns.
 3. In 500 words, write about what you notice. What columns or categories, if any, do you find surprising? What purpose do you think these categories serve, within the context of the application? Pretend you are a data analyst working at Google. What can you infer about yourself, based on this data alone?
 
-## Week 10: Web search
+## Week 10: The two-way mirror of web search
 
 Required readings: 
 
@@ -302,7 +302,7 @@ In 1000 words, write a proposal for your final project. Describe, at minimum:
 4. Goals of your project. Think about moving beyond recognizing problems, towards identifying solutions that reflect your ethical framework.
 
 
-## Week 11: Health and data
+## Week 11: Our bodies, our data
 
 Required readings: 
 
