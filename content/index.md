@@ -254,6 +254,8 @@ Optional readings (required for graduate students):
 Required readings: 
 
  - [@shahmirzadi_mapping_2018]
+ - [@schor_new_2017]
+ - [@schor_introduction_2017]
  
 Optional readings (required for graduate students): 
 
