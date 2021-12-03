@@ -6,12 +6,12 @@ bibliography: content/references.bib
 csl: content/custom-chicago.csl
 ---
 
-Welcome! Here you'll find all the course information for "People vs. Algorithms: Data Ethics in the 21st Century," a course taught in the Department of Statistics, at Columbia University, in Spring 2021. 
+Welcome! Here you'll find all the course information for "People vs. Algorithms: Data Ethics in the 21st Century," a course taught in the Department of Statistics, at Columbia University, in Spring 2022. 
 
 # Course Details 
 
   - STAT 1XXX: "People vs. Algorithms: Data Ethics in the 21st Century" 
-  - Spring 2021
+  - Spring 2022
   - Classroom: TBA
   - Instructors: Isabelle Zaugg, Jonathan Reeve
   - Email address: iz2153@columbia.edu; jonathan.reeve@columbia.edu
