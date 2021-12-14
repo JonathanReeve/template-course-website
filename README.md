@@ -1,8 +1,6 @@
-# People vs. Algorithms: Data Ethics in the 21st Century
+# Course Website Template
 
-This is the source code for the course "People vs. Algorithms: Data Ethics in the 21st Century," taught in the Department of Statistics at Columbia University, in Spring 2021. 
-
-**Please refer to the course website for more information: https://data-ethics.jonreeve.com**
+This is a template website for a university course, semantically marked-up by default.  
 
 ## Repository Contents
 
@@ -12,7 +10,7 @@ This is the source code for the course "People vs. Algorithms: Data Ethics in th
  - dist/ - The output directory. This is where the HTML files end up. 
  - src/ - The Haskell source code for building the site
  - default.nix - The Nix file which specifies the dependencies needed. Loads the cabal file. 
- - course-data-ethics.cabal - The Cabal file which actually specifies the Haskell dependencies. 
+ - template-course-website.cabal - The Cabal file which actually specifies the Haskell dependencies. 
 
 ## Technical Details 
 
@@ -29,7 +27,7 @@ nix-shell --run 'cabal run'
 To serve it on a local webserver: 
 
 ```
-nix-shell --run 'cabal run course-data-ethics -- serve' 
+nix-shell --run 'cabal run template-course-website -- serve' 
 ```
 
 (You can omit `nix-shell --run` if you have `direnv` installed, since the included .envrc automatically runs `nix-shell` for you.)
